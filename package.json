@@ -1,0 +1,30 @@
+{
+  "name": "get-a-room",
+  "version": "1.0.0",
+  "description": "UTSC Room Schedules REST API",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "moment": "^2.23.0",
+    "pg": "^7.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gesarki/get-a-room.git"
+  },
+  "author": "gesarki, Eric Ofman <eric.ofman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gesarki/get-a-room/issues"
+  },
+  "homepage": "https://github.com/gesarki/get-a-room#readme"
+}

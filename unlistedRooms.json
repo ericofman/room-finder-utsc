@@ -1,0 +1,76 @@
+[{
+	"roomName": "BV-340",
+	"capacity": 64,
+	"desc": "ACM Arts Lab",
+	"accessible": true
+}, {
+	"roomName": "SW-313",
+	"capacity": 60,
+	"desc": "Culinaria Kitchen Lab",
+	"accessible": true
+}, {
+	"roomName": "MW-329",
+	"capacity": 55,
+	"desc": "Math Lab",
+	"accessible": true
+}, {
+	"roomName": "AA-303",
+	"capacity": 70,
+	"desc": "Classroom-flat (piano)",
+	"accessible": true
+}, {
+	"roomName": "AA-304",
+	"capacity": 50,
+	"desc": "Arts and Administration",
+	"accessible": true
+}, {
+	"roomName": "AC-286A",
+	"capacity": 50,
+	"desc": "Library Instruction Lab for Students",
+	"accessible": true
+}, {
+	"roomName": "BV-466",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-469",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-494",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-498",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-481",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-482",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-471",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "BV-473",
+	"capacity": 30,
+	"desc": "Computer Lab",
+	"accessible": true
+}, {
+	"roomName": "HL-303",
+	"capacity": 10,
+	"desc": "Unknown room",
+	"accessible": false
+}]

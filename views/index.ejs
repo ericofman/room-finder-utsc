@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Get A Room!</title>
+  </head>
+  <body>
+<div class='main'>
+    <section class="content">
+      <h1>Available Rooms</h1>
+    </section>
+    <table class="roomsTable">
+      <thead>
+        <tr>
+          <th>room</th>
+          <th>starting time</th>
+          <th>ending time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for(var i=0; i < roomList.length; i++) { %>
+            <% if(roomList[i].free_now) { %>
+              <tr class='freeRoom'>
+            <% } else {%>
+              <tr>
+            <% } %>
+            <td><%= roomList[i].room_name %></td>
+            <td><%= roomList[i].start_time %></td>
+            <td><%= roomList[i].end_time %></td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>
+    <section class="content">
+      <h2>Using the REST API:</h2>
+      <pre>
+        /free-rooms?start_time=8:00&end_time=14:00
+        /free-rooms
+        /rooms
+      </pre>
+    </section>
+  </div>
+</body>
+</html>

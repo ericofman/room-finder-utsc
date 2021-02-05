@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: steelblue;
+  font-family: "Open Sans", arial;
+}
+table {
+  width: 100%;
+  max-width: 600px;
+  height: 320px;
+  border-collapse: collapse;
+  border: 1px solid #38678f;
+  margin: 50px auto;
+  background: white;
+}
+th {
+  background: steelblue;
+  height: 54px;
+  width: 25%;
+  font-weight: lighter;
+  text-shadow: 0 1px 0 #38678f;
+  color: white;
+  border: 1px solid #38678f;
+  box-shadow: inset 0px 1px 2px #568ebd;
+  transition: all 0.2s;
+}
+tr {
+  border-bottom: 1px solid #cccccc;
+}
+tr:last-child {
+  border-bottom: 0px;
+}
+
+td {
+  border-right: 1px solid #cccccc;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+td:hover {
+  opacity: 0.85;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+.roomsTable {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: float 5s infinite;
+}
+.main {
+  max-width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+.content {
+  color: white;
+  text-align: center;
+}
+.content p,
+.content pre,
+.content h2 {
+  text-align: left;
+}
+.content pre {
+  padding: 1.2em 0 0.5em;
+  background: white;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  color: #38678f;
+}
+
+h1 {
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+tr.freeRoom td {
+  box-shadow: inset 0px 1px 2px #6eef71;
+  color: #1D1D1D;
+  border: 1px solid #65e068;
+  background: #76ff79;
+}
+
+tr.freeRoom td:last-child {
+  border-right: 0px;
+}
+
+tr.freeRoom td:first-child {
+  border-left: 0px;
+}
